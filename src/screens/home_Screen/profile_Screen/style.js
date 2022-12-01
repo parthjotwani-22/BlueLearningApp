@@ -1,0 +1,59 @@
+import { StyleSheet } from "react-native"
+import colors from "../../../utils/colors"
+
+export default StyleSheet.create({
+    container:{
+        flex:1,
+        backgroundColor:colors.bgcolor
+    },
+    tpview:{
+        flexDirection:"row",
+        flex:0.45,
+        backgroundColor:colors.view_bl,
+        borderBottomLeftRadius:20,
+        borderBottomRightRadius:20,
+    },
+    img:{
+        height:70,
+        width:70,
+        alignSelf:"center",
+        margin:10
+    },
+    imgview:{
+        flex:0.3,
+        height:100,
+        width:100,
+        backgroundColor:colors.bgcolor,
+        alignSelf:"center",
+        borderRadius:60,
+        marginLeft:40
+    },
+    tptxt:{
+        marginHorizontal:20,
+        textAlign:'left',
+        fontSize:30,
+        color:colors.bgcolor
+    },
+    txtview:{
+        flex:0.7,
+        justifyContent:"center",
+    },
+    achieve:{
+        backgroundColor:colors.view_bl,
+        flex:0.5,
+        marginHorizontal:10,
+        borderRadius:20,
+        justifyContent:"center"
+    },
+    achievetxt:{
+        textAlign:"center",
+        fontSize:25,
+        color:colors.diff_tx
+    },
+    menu:{
+        height:35,
+        width:35,
+        margin:10,
+        tintColor:colors.bgcolor
+    }
+})
